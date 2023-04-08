@@ -19,10 +19,6 @@ def ocr(image):
 # Create the Streamlit app
 def main():
     st.title("Real-time OCR with EasyOCR")
-    # st.write("Upload an image or use your webcam to capture an image.")
-    #
-    # # Create a file uploader and webcam capture button
-    # file = st.file_uploader("Upload image", type=["jpg", "jpeg", "png"])
     if st.button("Use Webcam"):
         cap = cv2.VideoCapture(0)
         ret, frame = cap.read()
@@ -32,12 +28,6 @@ def main():
             st.write(text)
         cap.release()
 
-    # If a file is uploaded, display the image and perform OCR
-    # if file is not None:
-    #     image = cv2.imdecode(np.fromstring(file.read(), np.uint8), 1)
-    #     st.image(image, channels="BGR")
-    #     text = ocr(image)
-    #     st.write(text)
     st.markdown("## Use Real Time OCR feature")
     if st.button("OCR on livestream"):
         # Open the video capture device (0 is usually the default webcam)
