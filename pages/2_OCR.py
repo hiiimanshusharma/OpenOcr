@@ -2,7 +2,7 @@ import easyocr as ocr
 import streamlit as st  
 from PIL import Image 
 import numpy as np 
-from streamlit_extras.switch_page_button import switch_page
+#from streamlit_extras.switch_page_button import switch_page
 import os
 
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
