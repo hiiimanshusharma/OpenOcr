@@ -10,7 +10,7 @@ st.set_page_config(page_title="Image Converter", layout="wide")
 selected = option_menu(
     menu_title=None,
     options=["JPG to PNG", "JPG to TIF", "PNG to JPG", "PNG to TIF", "TIF to JPG", "TIF to PNG"],
-    icons=["card-image", "file-image", "file-image-fill", "image-alt", "image-fill", "image"],  # https://icons.getbootstrap.com/
+    icons=["card-image", "file-image", "file-image-fill", "image-alt", "image-fill", "image"],  
     orientation="horizontal",
 )
 
