@@ -5,3 +5,4 @@ Pillow==9.5.0
 streamlit==1.21.0
 streamlit_extras
 streamlit_option_menu==0.3.2
+streamlit_extras.switch_page_button
