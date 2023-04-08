@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from streamlit_extras.switch_page_button import switch_page
+#from streamlit_extras.switch_page_button import switch_page
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 st.markdown("""
