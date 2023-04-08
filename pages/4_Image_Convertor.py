@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import io
 import PIL.TiffImagePlugin
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 
 st.set_page_config(page_title="Image Converter", layout="wide")
