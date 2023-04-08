@@ -2,6 +2,6 @@ easyocr==1.6.2
 numpy==1.21.5
 opencv_python==4.7.0.72
 Pillow==9.5.0
-streamlit==1.20.0
+streamlit==1.21.0
 streamlit_extras
 streamlit_option_menu==0.3.2
