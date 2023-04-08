@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+from streamlit_extras.switch_page_button import switch_page
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 st.markdown("""
@@ -14,12 +15,12 @@ st.title("OpenOCR")
 
 st.markdown("# OCR and Image Conversion: Your One-Stop Shop")
 
-st.write('')
+#st.write('')
 if st.button('Extract Now'):
     switch_page('Extract Now')
 
-st.markdown("Not have picture in your storage. Don't Worry!!")
-st.write('')
+st.markdown("Not have picture in your browser. Don't Worry!!")
+#st.write('')
 if st.button('Live OCR'):
     switch_page('Live_OCR')
 
