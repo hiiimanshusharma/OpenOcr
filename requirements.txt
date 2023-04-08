@@ -3,6 +3,6 @@ numpy==1.21.5
 opencv_python==4.7.0.72
 Pillow==9.5.0
 streamlit==1.21.0
-streamlit_extras==0.1.56
+streamlit_extras
 streamlit_option_menu==0.3.2
-streamlit_extras.switch_page_button
+streamlit_extras.switch_page_button==0.1.56
