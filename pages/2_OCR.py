@@ -1,7 +1,7 @@
-import easyocr as ocr  #OCR
-import streamlit as st  #Web App
-from PIL import Image #Image Processing
-import numpy as np #Image Processing
+import easyocr as ocr  
+import streamlit as st  
+from PIL import Image 
+import numpy as np 
 from streamlit_extras.switch_page_button import switch_page
 import os
 
@@ -15,7 +15,7 @@ st.title("OpenOCR")
 #subtitle
 st.markdown("## Optical Character Recognition - Extract `Text` from  `Images`")
 
-st.markdown("")
+#st.markdown("")
 
 #image uploader
 image = st.file_uploader(label = "Upload your image here",type=['png','jpg','jpeg'])
@@ -26,12 +26,12 @@ def load_model():
     reader = ocr.Reader(['en','hi'],model_storage_directory='.')
     return reader
 
-reader = load_model() #load model
+reader = load_model() 
 
 if image is not None:
 
-    input_image = Image.open(image) #read image
-    st.image(input_image) #display image
+    input_image = Image.open(image) 
+    st.image(input_image) 
 
     with st.spinner(" Processing "):
 
