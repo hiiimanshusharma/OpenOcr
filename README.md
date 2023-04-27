@@ -1,1 +1,2 @@
 # OpenOcr
+pip install streamlit
