@@ -3,7 +3,6 @@ import streamlit as st  #Web App
 from PIL import Image #Image Processing
 import numpy as np #Image Processing
 from numpy import asarray
-from streamlit_extras.switch_page_button import switch_page
 import os
 from google.cloud import vision_v1
 import torch
@@ -61,22 +60,6 @@ if __name__ == "__main__":
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"openocr-394310-95d8b763df38.json"
     main()
 
-
-st.markdown("Want to convert image formats")
-# st.write('')
-if st.button('Image Convertor'):
-    switch_page('Image_Convertor')
-
-st.markdown("Having Trouble")
-# st.write('')
-if st.button('Contact Me'):
-    switch_page('Contact_Me')
-
-
-
-st.write('')
-if st.button('Return to Home'):
-    switch_page('Home')
 
 
 st.markdown("---")
