@@ -4,9 +4,6 @@ from google.cloud import vision_v1
 import numpy as np
 import streamlit as st
 
-st.write('')
-if st.button('Return to Home'):
-    switch_page('Home')
 
 def extract_text_from_image(image):
     # Instantiates a client
