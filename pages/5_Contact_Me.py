@@ -1,6 +1,4 @@
 import streamlit as st  # pip install streamlit
-from streamlit_extras.switch_page_button import switch_page
-
 st.set_page_config(page_title="Contact Me", layout="wide")
 
 st.header(":mailbox: Give Your Feedback/ Issues")
@@ -26,10 +24,6 @@ def local_css(file_name):
 
 
 local_css("style/style.css")
-
-st.write('')
-if st.button('Return to Home'):
-    switch_page('Home')
 
 st.caption("Made by Himanshu Sharma")
 
