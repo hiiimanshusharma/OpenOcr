@@ -9,3 +9,4 @@ extra-streamlit-components
 streamlit-option-menu
 torch
 google-cloud-vision
+streamlit-extras
