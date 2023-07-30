@@ -5,7 +5,7 @@ opencv_python_headless
 Pillow
 protobuf
 streamlit
-streamlit_extras
+extra-streamlit-components
 streamlit-option-menu
 torch
 google-cloud-vision
