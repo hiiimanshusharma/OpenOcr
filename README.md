@@ -1,7 +1,7 @@
 # Open OCR
  
-## requirements 
+## Requirements 
 
-'''
-pip install -r requirements.txt
-'''
+
+$ pip install -r requirements.txt
+
